@@ -59,11 +59,17 @@ let cleanInput = function (e) {
 inputNumber.addEventListener("click", cleanInput);
 inputSpecialChar.addEventListener("click", cleanInput);
 
+let copyText = document.querySelector(".copy-text");
+
 // Copy to clipbord
 let copyContent = async () => {
   try {
     await navigator.clipboard.writeText(password.value);
-    console.log("Content copied to clipboard");
+    copyText.textContent = `${password.value} Copied`;
+    copyText.classList.remove("hidden");
+    setTimeout(function () {
+      copyText.classList.add("hidden");
+    }, 800);
   } catch (err) {
     console.error("Failed to copy: ", err);
   }
