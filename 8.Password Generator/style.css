@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;500;600;800&family=Roboto:wght@500&display=swap");
 :root {
   --bg-color: #0a2c4c;
   --text-color: #fefeff;
