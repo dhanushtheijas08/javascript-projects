@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="password">
+      <input type="text" placeholder="Password" class="passwd">
+    </div>
+    <div class="container-1">
+      <label for="length">Length</label>
+      <input type="range" value="6" id="length" min="6" max="30" class="range">
+      <div class="text">6</div>
+      <div class="num">
+        <label for="num">Number</label>
+        <input type="number" id="num"  inputmode="numeric" value="0" class="value-number">
+      </div>
+      <div class="special-char">
+        <label for="sp-char">Special Character</label>
+        <input type="number" id="sp-char" inputmode="numeric" value="0" class="value-number">
+      </div>
+    </div>
+    <div class="submit">
+      <button class="btn btn-submit">Generate Password</button>
+      <button class="btn copy-btn">Copy To Clipbord</button>
+    </div>
+  </div>
+</body>
+
+</html>
