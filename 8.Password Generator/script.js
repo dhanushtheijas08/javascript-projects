@@ -69,4 +69,3 @@ let copyContent = async () => {
   }
 };
 copyBtn.addEventListener("click", copyContent);
-
