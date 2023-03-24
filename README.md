@@ -1,2 +1,2 @@
-# javascript-projrcts
+# Javascript Projrcts
  
